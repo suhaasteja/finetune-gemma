@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# Allow the specific notebooks
+!gemma3_pii_finetune_v2.ipynb
+!pii_detection_finetune.ipynb
+!README.md
+!.gitignore
+
+# Also allow common source files if they exist later
+!*.py
+!*.md
+
+# But ignore common temp files even if allowed above
+verify_prompt.py
+dataset/
+images/
+gemma3-pii-detector*/
+final_gemma3_pii_model*/
+.git/
+.ipynb_checkpoints/
+__pycache__/
