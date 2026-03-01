@@ -1,9 +1,11 @@
 # Ignore everything
 *
 
-# Allow the specific notebooks
+# Allow specific notebooks and files
 !gemma3_pii_finetune_v2.ipynb
 !pii_detection_finetune.ipynb
+!synthetic_data_generation.ipynb
+!finetune_dataset_prep.ipynb
 !README.md
 !.gitignore
 
@@ -20,3 +22,4 @@ final_gemma3_pii_model*/
 .git/
 .ipynb_checkpoints/
 __pycache__/
+.*
